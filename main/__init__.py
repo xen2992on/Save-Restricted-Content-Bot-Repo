@@ -13,12 +13,16 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("telethon").setLevel(logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+
+
+
+
+API_ID = '27338814' #config("API_ID", default=None, cast=int)
+API_HASH = '0e1b690b05167770e33901a8fc865c37' #config("API_HASH", default=None)
+BOT_TOKEN = '6754037725:AAHTpClnKeVjvma8abMf9fVLRx6V073p-Hs' #config("BOT_TOKEN", default=None)
+SESSION = '1AQAOMTQ5LjE1NC4xNzUuNjABu70xeBc4YCw6l0bYy1nRjalGmgjGLMZkRqBybPqEQEu1HcDOUp+dgcQKa9crhNdlwNhPoEU8fNf3diD80COQmThOGdru25zGEMG18TrVfZpr8WipcK3HhBEpfEeUflme3C01dhMe3DHRfLauEdPZHV37hA5wqk4MTXpPzB1o7QLww3sUxPzeS0gcoIhOzVeb6laPgm3JsuBAEUI0lPII2iGT4IyEQKEOdy7kz//ALUXeEctKGAcvYNiYZ5I8nB+J8Mton4fDycAVSahUl61b9hD7D51FGvvEwoUwBdWJ6WbBogQVyjG3LkfhheEX1azPumZCp6hQOM5VFqCYJPFNDG0='#config("SESSION", default=None)
+FORCESUB = 'dscwsd'#config("FORCESUB", default=None)
+AUTH = '7480147726'#config("AUTH", default=None)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
